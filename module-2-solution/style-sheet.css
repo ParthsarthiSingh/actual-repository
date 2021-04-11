@@ -1,3 +1,195 @@
+*{box-sizing: border-box;
+    text-align: center;
+}
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+@media (min-width:992px)
+{
+ .box1{
+    border: 3px solid black;
+    width:25%;
+    text-align: left;
+    margin-left: 6.25%;
+    background-color: rgba(143, 143, 143, 0.911);
+    float: left;
+    font-size: medium;
+    font-family: cursive;
+ }
+ .box2{
+    border: 3px solid black;
+    width:25%;
+    text-align: left;
+    margin-left: 6.25%;
+    background-color: rgba(143, 143, 143, 0.911);
+    float: left;
+    font-size: medium;
+    font-family: cursive;
+ }
+ .box3{
+    border: 3px solid black;
+    width:25%;
+    text-align: left;
+    margin-left: 6.25%;
+    background-color: rgba(143, 143, 143, 0.911);
+    float: left;
+    font-size: medium;
+    font-family: cursive;
+ }
+ .inner_box1{
+    border: 3px solid black;
+    width:30%;
+    font-family: monospace;
+    font-size: large;
+    margin-top: 0px;
+    position:relative;
+    left:70%;
+    background-color: rgb(201, 107, 146);
+ }
+ .inner_box2{
+    border: 3px solid black;
+    width:30%;
+    font-family: monospace;
+    font-size: large;
+    margin-top: 0px;
+    position:relative;
+    left:70%;
+    background-color: rgb(212, 61, 61);
+ }
+ .inner_box3{
+    border: 3px solid black;
+    width:30%;
+    font-family: monospace;
+    font-size: large;
+    margin-top: 0px;
+    position:relative;
+    left:70%;
+    background-color: rgb(224, 202, 103);
+ }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    .box1{
+        border: 3px solid black;
+        width:42.5%;
+        text-align: left;
+        margin-left: 5%;
+        background-color: rgba(143, 143, 143, 0.911);
+        float: left;
+        font-size: medium;
+        font-family: cursive;
+    }
+    .box2{
+        border: 3px solid black;
+        width:42.5%;
+        text-align: left;
+        margin-left: 5%;
+        background-color: rgba(143, 143, 143, 0.911);
+        float: left;
+        font-size: medium;
+        font-family: cursive;
+    }
+    .box3{
+        border: 3px solid black;
+        width:90%;
+        text-align: left;
+        margin-left: 5%;
+        background-color: rgba(143, 143, 143, 0.911);
+        float: left;
+        font-size: medium;
+        font-family: cursive;
+    }
+    .inner_box1{
+        border: 3px solid black;
+        width:30%;
+        font-family: monospace;
+        font-size: large;
+        margin-top: 0px;
+        position:relative;
+        left:70%;
+        background-color: rgb(201, 107, 146);
+     }
+     .inner_box2{
+        border: 3px solid black;
+        width:30%;
+        font-family: monospace;
+        font-size: large;
+        margin-top: 0px;
+        position:relative;
+        left:70%;
+        background-color: rgb(212, 61, 61);
+     }
+     .inner_box3{
+        border: 3px solid black;
+        width:30%;
+        font-family: monospace;
+        font-size: large;
+        margin-top: 0px;
+        position:relative;
+        left:70%;
+        background-color: rgb(224, 202, 103);
+     }
+}
+@media (max-width:767px)
+{
+    .box1{
+        border: 3px solid black;
+        width:90%;
+        text-align: left;
+        margin-left: 5%;
+        background-color: rgba(143, 143, 143, 0.911);
+        float: left;
+        font-size: medium;
+        font-family: cursive;
+    }
+    .box2{
+        border: 3px solid black;
+        width:90%;
+        text-align: left;
+        margin-left: 5%;
+        background-color: rgba(143, 143, 143, 0.911);
+        float: left;
+        font-size: medium;
+        font-family: cursive;
+    }
+    .box3{
+        border: 3px solid black;
+        width:90%;
+        text-align: left;
+        margin-left: 5%;
+        background-color: rgba(143, 143, 143, 0.911);
+        float: left;
+        font-size: medium;
+        font-family: cursive;
+    }
+    .inner_box1{
+        border: 3px solid black;
+        width:30%;
+        font-family: monospace;
+        font-size: large;
+        margin-top: 0px;
+        position:relative;
+        left:70%;
+        background-color: rgb(201, 107, 146);
+     }
+     .inner_box2{
+        border: 3px solid black;
+        width:30%;
+        font-family: monospace;
+        font-size: large;
+        margin-top: 0px;
+        position:relative;
+        left:70%;
+        background-color: rgb(212, 61, 61);
+     }
+     .inner_box3{
+        border: 3px solid black;
+        width:30%;
+        font-family: monospace;
+        font-size: large;
+        margin-top: 0px;
+        position:relative;
+        left:70%;
+        background-color: rgb(224, 202, 103);
+     }
 }
